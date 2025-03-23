@@ -27,7 +27,7 @@ public class TemplateService {
         template.setTemplateName(templateRequest.getTemplateName());
         template.setTemplateDescription(templateRequest.getTemplateDescription());
         template.setCreatedAt(LocalDateTime.now());
-
+        System.out.println("Created Time: "+template.getCreatedAt());
         templateRepository.save(template);
         TemplateResponse templateResponse = new TemplateResponse();
         templateResponse.setMessage("Save Success");
