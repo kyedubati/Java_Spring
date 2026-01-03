@@ -8,6 +8,8 @@ public class Train1Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Train1Application.class, args);
+
+		
 	}
 
 }
