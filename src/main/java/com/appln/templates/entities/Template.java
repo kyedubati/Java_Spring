@@ -25,4 +25,7 @@ public class Template {
     private LocalDateTime createdAt;
     @Column(nullable=false)
     private LocalDateTime startedTimeStamp;
+    @Column(nullable=true)
+    private LocalDateTime completedTimeStamp;
+    
 }
